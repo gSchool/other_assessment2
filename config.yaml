@@ -1,0 +1,26 @@
+# Related Snippets
+# ==========================
+# `unityaml`: add a Unit
+# `lessonyaml`: add a lesson
+# Note: Be sure to place the cursor at the appropriate indentation level before running either of these.
+
+# All UIDs must be unique within a repo. Use `cmd/ctrl+option/alt+u` to generate
+Standards:
+  - Title: Pre-Assessment 2
+    UID: a43d577d-50d1-4bf1-b9f8-2c6ab01e5d35
+    Description: Pre-Assessment (2)
+    SuccessCriteria:
+      - Unit has a config.yaml
+      - Unit has a checkpoint
+    ContentFiles:
+      - Type: Lesson
+        UID: 072d9642-4a00-4922-8be3-d3899c3425ed
+        Path: /units/before.md
+      - Type: Instructor
+        UID: 1d23c89e-17d6-46ca-935e-a7b87e6ede27
+        Path: /units/pre-assessment-2-answers.md
+      - Type: Checkpoint
+        UID: 2d13ca22-14e1-4993-8c48-d04dc45e217d
+        Path: /checkpoints/pre-assessment-2.md
+        Autoscore: false
+        MaxCheckpointSubmissions: 1
